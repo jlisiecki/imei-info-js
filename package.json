@@ -1,0 +1,26 @@
+{
+    "name": "imei-info",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jlisiecki/imei-info-js.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jlisiecki/imei-info-js/issues"
+    },
+    "homepage": "https://github.com/jlisiecki/imei-info-js#readme",
+    "devDependencies": {
+        "bootstrap": "^3.3.7",
+        "jquery": "^2.2.4",
+        "webpack": "^5.70.0",
+        "webpack-cli": "^4.9.2"
+    }
+}

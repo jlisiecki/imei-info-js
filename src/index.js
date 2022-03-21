@@ -1,0 +1,9 @@
+require('jquery');
+require('bootstrap');
+require('./validate.js');
+require('./adblock_check.js');
+require('./core.js');
+require('./message_box.js');
+require('./selection_mod.js');
+require('./glossary_item.js');
+require('./akrobat_font_load.js');
