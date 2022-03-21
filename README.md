@@ -11,7 +11,7 @@ npm run build
 
 "bundle.js" file will be placed in "dist/"
 
-Just place in &lt;head&gt; section under GTM code:
+Just place in &lt;head&gt; section under GTM code with "defer" attribute:
 
 ```
 <script src="./dist/bundle.js" defer></script>
