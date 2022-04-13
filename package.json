@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "webpack"
+        "build": "webpack && node purge"
     },
     "repository": {
         "type": "git",
@@ -22,5 +22,8 @@
         "jquery": "^2.2.4",
         "webpack": "^5.70.0",
         "webpack-cli": "^4.9.2"
+    },
+    "dependencies": {
+        "css-purge": "^3.1.8"
     }
 }

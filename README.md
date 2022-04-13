@@ -1,4 +1,4 @@
-# IMEI.info JS Bundler
+# IMEI.info JS and CSS Bundler
 
 Usage:
 
@@ -9,10 +9,12 @@ npm i -D
 npm run build
 ```
 
-"bundle.js" file will be placed in "dist/"
+"bundle.js" & "bundle.css" file will be placed in "dist/"
 
-Just place in &lt;head&gt; section under GTM code with "defer" attribute:
+Just place in `<head>` section under GTM code with "defer" attribute:
 
 ```
 <script src="./dist/bundle.js" defer></script>
 ```
+
+Place contents of ./dist/bundle.css as inline `<style></style>` in `<head>` section after "preloads" of "banner.jpg" variants.
