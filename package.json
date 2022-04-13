@@ -4,26 +4,27 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "webpack && node purge"
+        "js": "webpack",
+        "css": "node purge"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jlisiecki/imei-info-js.git"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "Jakub Lisiecki",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/jlisiecki/imei-info-js/issues"
     },
     "homepage": "https://github.com/jlisiecki/imei-info-js#readme",
-    "devDependencies": {
+    "dependencies": {
         "bootstrap": "^3.3.7",
         "jquery": "^2.2.4",
         "webpack": "^5.70.0",
-        "webpack-cli": "^4.9.2"
-    },
-    "dependencies": {
-        "css-purge": "^3.1.8"
+        "webpack-cli": "^4.9.2",
+        "clean-css": "^5.3.0",
+        "node-fetch": "^2.6.7",
+        "purgecss": "^4.1.3"
     }
 }
